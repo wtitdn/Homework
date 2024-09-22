@@ -33,7 +33,9 @@ class GomokuWindow(QMainWindow):
         
         #利用pygame对bgm进行初始化
         pygame.mixer.init()
-        pygame.mixer.music.load("GomokuCode/music/：）.mp3") 
+        pygame.mixer.music.load("GomokuCode/music/：）.mp3")
+        #如果为windows系统 请调用这条语句
+        #pygame.mixer.music.load("music/：）.mp3")
         '''Waring 如果你想在保护耳朵的同时打开这个项目 我建议将下面的参数修改为0.01！！！！！！'''
         '''Waring 如果你想在保护耳朵的同时打开这个项目 我建议将下面的参数修改为0.01！！！！！！'''
         '''Waring 如果你想在保护耳朵的同时打开这个项目 我建议将下面的参数修改为0.01！！！！！！'''
